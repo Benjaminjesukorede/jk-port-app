@@ -23,7 +23,7 @@ const AboutContent = () => {
           </Link>
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/2347043121217?text=Hello%20there!"
+            href="https://wa.me/2347059391767?text=Hello%20there!"
             target="_blank"
             rel="noopener noreferrer"
             className="btn whatsapp-btn-link"

@@ -22,7 +22,7 @@ const HeroImg = () => {
           </Link>
           {/* WhatsApp Icon Link */}
           <a
-            href="https://wa.me/2347043121217?text=Hello%20there!" // Replace YOUR_PHONE_NUMBER with your actual number (include country code without '+' sign, e.g., 234XYZ)
+            href="https://wa.me/2347059391767?text=Hello%20there!" // Replace YOUR_PHONE_NUMBER with your actual number (include country code without '+' sign, e.g., 234XYZ)
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-link"
