@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jk-port-app/static/css/main.5d0d3c88.css",
-    "main.js": "/jk-port-app/static/js/main.09cc7105.js",
+    "main.js": "/jk-port-app/static/js/main.953a7395.js",
     "static/media/WhatsApp Image 15.jpg": "/jk-port-app/static/media/WhatsApp Image 15.464d3c4509cc11dcaa13.jpg",
     "static/media/WhatsApp Image 8.jpg": "/jk-port-app/static/media/WhatsApp Image 8.f9bda6549a55a2a747af.jpg",
     "static/media/WhatsApp Image 9.jpg": "/jk-port-app/static/media/WhatsApp Image 9.c24319dd656976ec2b3a.jpg",
@@ -16,10 +16,10 @@
     "static/media/WhatsApp Image 4.jpg": "/jk-port-app/static/media/WhatsApp Image 4.45a02c3880f78bf7733d.jpg",
     "index.html": "/jk-port-app/index.html",
     "main.5d0d3c88.css.map": "/jk-port-app/static/css/main.5d0d3c88.css.map",
-    "main.09cc7105.js.map": "/jk-port-app/static/js/main.09cc7105.js.map"
+    "main.953a7395.js.map": "/jk-port-app/static/js/main.953a7395.js.map"
   },
   "entrypoints": [
     "static/css/main.5d0d3c88.css",
-    "static/js/main.09cc7105.js"
+    "static/js/main.953a7395.js"
   ]
 }
