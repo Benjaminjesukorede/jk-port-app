@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jk-port-app.git/static/css/main.5d0d3c88.css",
+    "main.js": "/jk-port-app.git/static/js/main.3d8c1cec.js",
+    "static/media/WhatsApp Image 15.jpg": "/jk-port-app.git/static/media/WhatsApp Image 15.464d3c4509cc11dcaa13.jpg",
+    "static/media/WhatsApp Image 8.jpg": "/jk-port-app.git/static/media/WhatsApp Image 8.f9bda6549a55a2a747af.jpg",
+    "static/media/WhatsApp Image 9.jpg": "/jk-port-app.git/static/media/WhatsApp Image 9.c24319dd656976ec2b3a.jpg",
+    "static/media/WhatsApp Image 3.jpg": "/jk-port-app.git/static/media/WhatsApp Image 3.4f2baa39678f08046737.jpg",
+    "static/media/WhatsApp Image 7.jpg": "/jk-port-app.git/static/media/WhatsApp Image 7.0a1cc4f4cc840af1ec6c.jpg",
+    "static/media/WhatsApp Image 2.jpg": "/jk-port-app.git/static/media/WhatsApp Image 2.a2ef3e18d058bc65de78.jpg",
+    "static/media/WhatsApp Image 11.jpg": "/jk-port-app.git/static/media/WhatsApp Image 11.27e9293f0ff0d62d2906.jpg",
+    "static/media/WhatsApp Image 12.jpg": "/jk-port-app.git/static/media/WhatsApp Image 12.27e9293f0ff0d62d2906.jpg",
+    "static/media/logo.png": "/jk-port-app.git/static/media/logo.a9839c6fa1c17ba36556.png",
+    "static/media/WhatsApp Image 5.jpg": "/jk-port-app.git/static/media/WhatsApp Image 5.ef78be6634b3223fbb58.jpg",
+    "static/media/WhatsApp Image 6.jpg": "/jk-port-app.git/static/media/WhatsApp Image 6.99e5900d52b68adbf6b7.jpg",
+    "static/media/WhatsApp Image 4.jpg": "/jk-port-app.git/static/media/WhatsApp Image 4.45a02c3880f78bf7733d.jpg",
+    "index.html": "/jk-port-app.git/index.html",
+    "main.5d0d3c88.css.map": "/jk-port-app.git/static/css/main.5d0d3c88.css.map",
+    "main.3d8c1cec.js.map": "/jk-port-app.git/static/js/main.3d8c1cec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d0d3c88.css",
+    "static/js/main.3d8c1cec.js"
+  ]
+}
