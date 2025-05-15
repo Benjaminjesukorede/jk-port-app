@@ -1,39 +1,34 @@
-.mask{
+.mask {
     width: 100%;
-    height: 100vh;
+    height: 90vh; /* Adjusted for better mobile view */
+    min-height: 500px; /* Ensures visibility */
     position: relative;
+    overflow: hidden; /* Prevents overflow */
 }
 
-.into-img{
+.into-img {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
+    object-fit: cover; /* Ensures proper image scaling */
+    max-width: 100%;
 }
 
-.mask::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    opacity: 0.8;
-}
-
-.hero{
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: 100%;
     width: 100%;
 }
 
-.hero .content{
+.hero .content {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    text-align: center;
+    width: 80%; /* Ensures text fits well on all screens */
 }
 
 .hero .content h1 {
@@ -51,12 +46,27 @@
     margin: 1rem 0.2rem;
 }
 
-@media screen and (max-width:640px) {
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
     .hero .content h1 {
-        font-size: 2.6rem;
+        font-size: 3rem;
     }
-    
+
     .hero .content p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero .content h1 {
+        font-size: 2rem;
+    }
+
+    .hero .content p {
+        font-size: 1rem;
+    }
+
+    .mask {
+        height: 60vh; /* Adjust height for mobile */
     }
 }

@@ -7,32 +7,32 @@ const PricingCard = () => {
   return <div className="pricing">
     <div className="card-container">
         <div className="card">
-            <h3>- Basic -</h3>
+            <h3>- Starting Price -</h3>
             <span className="bar"></span>
-            <p className="btc">$ 200</p>
-            <p>- 4 Days -</p>
-            <p>- Featured -</p>
-            <p>- AFFILIATE MARKETTING -</p>
+            <p className="btc">#200,000</p>
+            <p>- 3 Days -</p>
+            <p>- Bed Frame -</p>
+            <p>- Free Delivery -</p>
             <Link to="/contact" className="btn">PURCHASE NOW</Link>
         </div>
 
         <div className="card">
-            <h3>- Premium -</h3>
+            <h3>- Starting Price -</h3>
             <span className="bar"></span>
-            <p className="btc">$ 300</p>
-            <p>- 4 Days -</p>
-            <p>- Featured -</p>
-            <p>- REACT RESPONSIVE DESIGN -</p>
+            <p className="btc">#300,000</p>
+            <p>- 3 Days -</p>
+            <p>- TV Console -</p>
+            <p>- Free Delivery -</p>
             <Link to="/contact" className="btn">PURCHASE NOW</Link>
         </div>
         
         <div className="card">
-            <h3>- Advance -</h3>
+            <h3>- Starting Price -</h3>
             <span className="bar"></span>
-            <p className="btc">$ 400</p>
-            <p>- 6 Days -</p>
-            <p>- Featured -</p>
-            <p>- NODE BACK-END -</p>
+            <p className="btc">#150,000</p>
+            <p>- 3 Days -</p>
+            <p>- Wardrobe -</p>
+            <p>- Free Delivery -</p>
             <Link to="/contact" className="btn">PURCHASE NOW</Link>
         </div>
     </div>

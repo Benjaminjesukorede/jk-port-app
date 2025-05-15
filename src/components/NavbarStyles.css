@@ -31,6 +31,22 @@
     display: none;
 }
 
+.into-img {
+  width: 150px; /* Adjust the width to fit your design */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure responsiveness */
+  object-fit: contain; /* Prevent distortion */
+}
+
+.logo-container {
+  width: 150px; 
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0) invert(1); /* Converts dark colors to white */
+}
+
 @media screen and (max-width: 1040px) {
     .nav-menu{
         flex-direction: column;
@@ -61,4 +77,16 @@
     .hamburger {
         display: initial;
     }
+
+    @media (max-width: 768px) {
+  .into-img {
+    max-width: 120px; /* Slightly smaller for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .into-img {
+    max-width: 80px; /* Smaller for mobile screens */
+  }
+}
 }

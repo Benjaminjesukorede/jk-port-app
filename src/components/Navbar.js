@@ -2,7 +2,7 @@ import "./NavbarStyles.css";
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import LogoImg from "../assets/logo.png"
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -21,10 +21,10 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
-        <Link to="/">
-            <h1>Portfolio</h1>
-        </Link>
+    <div className={(color ? " header header-bg" : " header")}>
+      <Link to="/">
+       <div className="logo-container"><img className="into-img" src={LogoImg} alt="Logo" /></div>
+      </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
                 <Link to="/">Home</Link>

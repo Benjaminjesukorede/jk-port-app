@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #000;
+  background: gray;
 }
 
 h1,
@@ -27,8 +27,8 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
-  color: #222;
+  background: #996515;
+  color: #fff;
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
@@ -41,7 +41,7 @@ ul {
 }
 
 .btn:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: #996515;
   color: #fff;
   transition: 0.3s;
 }

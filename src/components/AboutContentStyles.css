@@ -48,3 +48,19 @@
     grid-row: 1;
     z-index: 5;
 }
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .whatsapp-btn-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  .whatsapp-btn-link:hover {
+    color: #25d366;
+  }
+  

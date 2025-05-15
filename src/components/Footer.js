@@ -7,12 +7,14 @@ const Footer = () => {
     <div className="footer">
         <div className="footer-container">
             <div className="left">
-                <div className="location">
-                  <FaHome size={20} style={{color:
-                  "#fff", marginRight: "2rem" }} />
-                  <div>
-                    <p>Lagos, Nigeria</p>
-                  </div>
+                <div className="location"> 
+                  <h4><FaHome
+                  size={20}
+                  style={{color: "#fff",
+                  marginRight: "2rem" }}
+                  />
+                    Lagos, Nigeria
+                  </h4>
                 </div>
                   <div className="phone">
                     <h4><FaPhone 
@@ -30,17 +32,21 @@ const Footer = () => {
                         style={{color: "#fff",
                         marginRight: "2rem" }}
                       />
-                      benjaminjesukorede@gmail.com
+                      jkonlinefurniturestore@gmail.com
                     </h4>
                   </div>
             </div>
 
             <div className="right">
-              <h4>About Benjamin?</h4>
-              <p>I believe I’m the best person for the job because I have a strong foundation in React and a deep understanding of building scalable and efficient web applications.
-                As an intermediate React programmer, I have hands-on experience with hooks, state management (such as Redux or Context API), and optimizing performance. 
-                I’m also a quick learner, constantly improving my skills by staying up-to-date with the latest React features and best practices. 
-                My problem-solving mindset and ability to work collaboratively make me a valuable asset to any development team.</p>
+              <h4>About</h4>
+              <p>"At JKOnlineFurnitureStore, we believe that furniture is more than just a piece of decor
+                 - it's a reflection of your personality and a haven for your loved ones.
+                  Our mission is to craft beautiful, functional, and sustainable furniture that brings
+                   warmth and comfort to your home. With a passion for design and a commitment to quality,
+                    we've been creating exceptional furniture pieces for years."
+                  sIntroducing our well-crafted furniture, a stunning piece of furniture that combines sleek lines, rich textures, and unparalleled comfort. Made from the finest materials and crafted with precision, this [chair/sofa/table/cabinets] is designed to be the centerpiece of your living room. Its elegant design and durable construction ensure that it will be a treasured possession for years to come.
+                  Ready to elevate your home with our exceptional furniture pieces? Browse our collection today and discover the perfect piece for your space. Our team is here to help you every step of the way, from design to delivery. Let's create a home that's truly yours.
+              </p>
               <div>
                 <FaFacebook
                 size={30}
